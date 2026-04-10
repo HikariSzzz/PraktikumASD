@@ -1,5 +1,3 @@
-
-
 public class Mahasiswa28 {
     String nama;
     String nim;

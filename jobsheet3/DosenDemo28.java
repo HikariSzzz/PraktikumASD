@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class DosenDemo28 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Dosen28 arrDosen[] = new Dosen28[3];
+        DosenJS3_28 arrDosen[] = new DosenJS3_28[3];
 
         for (int i = 0; i < arrDosen.length; i++) {
             System.out.println("Masukkan Data Dosen ke-" + (i + 1));
@@ -20,11 +20,11 @@ public class DosenDemo28 {
 
             do {
                 if (jk == 'p' || jk == 'P') {
-                    arrDosen[i] = new Dosen28(kd, nm, true, usia);
+                    arrDosen[i] = new DosenJS3_28(kd, nm, true, usia);
                     System.out.println("---------------------------");
                     break;
                 } else if (jk == 'w' || jk == 'W') {
-                    arrDosen[i] = new Dosen28(kd, nm, false, usia);
+                    arrDosen[i] = new DosenJS3_28(kd, nm, false, usia);
                     System.out.println("---------------------------");
                     break;
                 } else {
